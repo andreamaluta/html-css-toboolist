@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Atkinson+Hyperlegible+Next:ital', sans-serif;
+}
+
 header{
     height: 80px;
 }
@@ -17,7 +21,6 @@ header{
     display: inline-block;
     vertical-align: middle;
     font-size: 35px;
-    font-family: 'Atkinson+Hyperlegible+Next:ital', sans-serif;
     font-weight: bold;
 }
 
@@ -25,12 +28,15 @@ header{
 
 main{
     background-color: rgb(196, 196, 196);
+    padding-top: 80px;
+    padding-bottom: 1000px;
 }
 
 .container{
     width: 750px;
     margin: 0 auto;
     background-color: white;
+    height: 1000px;
 }
 
 .section{
@@ -43,8 +49,8 @@ main{
     border: 1px solid grey;
     border-radius: 5px;
     border-color: lightgrey;
-    font-size: 15px;
-    padding: 5px;
+    font-size: 12px;
+    padding: 10px;
 }
 
 #add-task-style{
@@ -54,4 +60,50 @@ main{
 
 #add-section-style{
     color: lightgrey;
+}
+
+.division-list{
+    padding-top: 20px;
+}
+
+.list-title{
+    font-weight: bold;
+    font-size: 25px;
+    list-style: none;
+}
+
+.list-title-enti{
+    font-size: 20px;
+}
+
+.list-element{
+    list-style: none;
+    padding: 10px;
+}
+
+.point-check{
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    border: 1px solid greenyellow;
+    display: inline-block;
+    padding: 2px;
+    text-align: center;
+    color: greenyellow;
+}
+
+.point-cross{
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    border: 1px solid red;
+    display: inline-block;
+    padding: 2px;
+    text-align: center;
+    color: red;
+}
+
+/* .check-point{ */
+    border-color: greenyellow;
+    color: greenyellow;
 }
