@@ -23,4 +23,30 @@ header{
 
 /* fine header */
 
+main{
+    background-color: rgb(196, 196, 196);
+}
 
+.container{
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.add-style{
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 5px;
+    border-color: lightgrey;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#add-task-style{
+    background-color: rgb(72, 165, 246);
+    color: white;
+}
+
+#add-section-style{
+    color: lightgrey;
+}
