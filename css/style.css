@@ -28,9 +28,14 @@ main{
 }
 
 .container{
-    width: 500px;
+    width: 750px;
     margin: 0 auto;
     background-color: white;
+}
+
+.section{
+    padding-left: 30px;
+    padding-top: 10px;
 }
 
 .add-style{
