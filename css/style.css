@@ -103,7 +103,32 @@ main{
     color: red;
 }
 
-/* .check-point{ */
-    border-color: greenyellow;
-    color: greenyellow;
+.side-note{
+    border: 1px solid grey;
+    border-radius: 20px;
+    border-color: lightgrey;
+    font-size: 11px;
+    padding: 7px;
+    display: inline-block;
+    color: white;
+}
+
+.color-blue{
+    background-color: rgb(72, 165, 246);
+}
+
+.color-purple{
+    background-color: rgb(167, 20, 235);
+}
+.color-green{
+    background-color: rgb(71, 114, 65);
+}
+.color-orange{
+    background-color: orange;
+}
+.color-pink{
+    background-color: rgb(224, 80, 104);
+}
+.color-lightgreen{
+    background-color: rgb(199, 224, 158);
 }
